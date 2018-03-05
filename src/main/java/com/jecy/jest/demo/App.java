@@ -24,7 +24,6 @@ import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 public class App {
     public static void main(String[] args) throws IOException {
 
-        //createIndex(getJestClient());
         searchingDocuments(getJestClient());
         System.out.println("Hello Jest!");
     }
